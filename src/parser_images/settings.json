@@ -1,0 +1,27 @@
+{
+  "language": "ru",
+  "default_image_count": 10,
+  "delay_between_requests": 1,
+  "headless": true,
+  "max_workers": 20,
+  "batch_size": 15,
+  "timeout_load_page": 10,
+  "timeout_get_image": 3,
+  "timeout_collect": 60,
+  "scroll_pause_min": 1.0,
+  "scroll_pause_max": 2.5,
+  "min_image_size": 200,
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
+  "check_existing_hashes": true,
+  "image_quality": "low",
+  "search_engine": "google",
+  "query_modifiers": [
+    "site:pinterest.com",
+    "before:2023",
+    "after:2024",
+    "filetype:png",
+    "wallpaper",
+    "hd"
+  ],
+  "max_images_per_query": 5000
+}

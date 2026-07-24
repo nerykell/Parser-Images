@@ -1,0 +1,14 @@
+# Single queries / Одиночные запросы
+cute cats 100
+
+# Query groups / Группы запросов
+# Format: [folder name] total count
+#         &extra query count
+
+[drones] 1000
+&drones fpv 250
+&drones racing 250
+&drones with camera 250
+
+# Single query after group
+cars 50

@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Parser-Images"
+version = "1.0.0"
+description = "CLI tool for bulk image downloading from Google Images and DuckDuckGo"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Nerykell", email = "jastak01077@gmail.com"}
+]
+classifiers = [
+    "Development Status :: 4 - Alpha",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Multimedia :: Graphics",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "selenium>=4.0.0",
+    "webdriver-manager>=3.0.0",
+    "requests>=2.28.0",
+    "tqdm>=4.64.0",
+]
+
+[project.scripts]
+parser-images = "parser_images.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/nerykell/Parser-Images"
+Repository = "https://github.com/nerykell/Parser-Images"
+Issues = "https://github.com/nerykell/Parser-Images/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
