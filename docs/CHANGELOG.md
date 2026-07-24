@@ -5,10 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0-alpha] - 2026-07-23
+## [1.0.0-alpha] - 2026-07-24
 
 ### Added
-- Initial pre-release of Parser-Images
 - Support for Google Images and DuckDuckGo search engines
 - Grouped queries with fallback variations
 - Automatic search modifiers when results are insufficient
@@ -29,4 +28,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ESC / Ctrl+C graceful shutdown
 - Cross-platform support (Windows, Linux, macOS)
 
-[1.0-alpha]: https://github.com/nerykell/Parser-Images/releases/tag/v1.0-alpha
+[1.0.0-alpha]: https://github.com/nerykell/Parser-Images/releases/tag/v1.0.0
